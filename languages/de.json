@@ -1,8 +1,8 @@
 {
-	"plugin-data": {
-		"name": "Redirects",
-		"description": "Leite URLs permanent oder temporär auf andere weiter. Praktisch, wenn sich der Slug deiner Seiten verändert."
-	},
+    "plugin-data": {
+        "name": "Redirects",
+        "description": "Leite URLs permanent oder temporär auf andere weiter. Praktisch, wenn sich der Slug deiner Seiten verändert."
+    },
     "s18n-cbd8ca3e9d1308f03b181b890a9cccb5": "HTTPs erzwingen",
     "s18n-01bf45994da66835885df4b31510f76b": "HTTPs überall erzwingen",
     "s18n-8dde0c7ac4ad81b94ce2b41a29df6590": "Bitte prüfe ob SSL auf deiner Domain aktiviert ist BEVOR du diese Option aktivierst.",
