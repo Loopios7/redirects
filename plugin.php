@@ -29,7 +29,7 @@ declare(strict_types=1);
                 "force-https"       => false,       // Force HTTPs
                 "https-status"      => 301,         // Force HTTPs permanently or temporary
                 "allow-external"    => false,       // Allow external redirects
-                "redirects"         => [ ]          // All Redirections
+                "redirects"         => [ ]          // All Redirects
             ];
             return true;
         }
@@ -230,7 +230,7 @@ declare(strict_types=1);
                 $this->db["allow-external"] = $data["allow-external"] === "true";
             }
 
-            // Redirecots
+            // Redirects
             $redirects = [];
             if(isset($data["redirects"])) {
                 foreach($data["redirect"] AS $redirect) {
@@ -277,7 +277,6 @@ declare(strict_types=1);
                     if($from === $to) {
                         continue;
                     }
-
 
                     // Sanitize STATUS
                     $status = ($status === "301")? 301: 302;
@@ -365,9 +364,9 @@ declare(strict_types=1);
                         // Sanitize TO
                         var to_value = to.val().replace(/\/$/, "").trim().toLowerCase();
                         if(to_value.startsWith(DOMAIN_BASE)) {
-                            top_value = to_value.replace(DOMAIN_BASE, "");
+                            to_value = to_value.replace(DOMAIN_BASE, "");
                         } else if(to_value.startsWith(DOMAIN)) {
-                            top_value = to_value.replace(DOMAIN, "");
+                            to_value = to_value.replace(DOMAIN, "");
                         }
 
                         // ... is empty
