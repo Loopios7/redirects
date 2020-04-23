@@ -1,8 +1,8 @@
 {
-	"plugin-data": {
-		"name": "Redirects",
-		"description": "Forward URLs permanently or temporarily to other ones. Useful if you change the content slug of a page."
-	},
+    "plugin-data": {
+        "name": "Redirects",
+        "description": "Forward URLs permanently or temporarily to other ones. Useful if you change the content slug of a page."
+    },
     "s18n-cbd8ca3e9d1308f03b181b890a9cccb5": "Force HTTPs",
     "s18n-01bf45994da66835885df4b31510f76b": "Force HTTPs everywhere",
     "s18n-8dde0c7ac4ad81b94ce2b41a29df6590": "Please check if SSL is activated on your domain BEFORE you enable this option.",
