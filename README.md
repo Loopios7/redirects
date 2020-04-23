@@ -4,9 +4,9 @@ Redirects - Forwarding made easy
 [![Version](https://s.pytes.me/21ab1e7d)](https://github.com/pytesNET/redirects/releases)
 [![Support Me](https://s.pytes.me/4a1717aa)](https://buymeacoffee.com/pytesNET)
 
-The Redirects plugin allows you to forward a slug or page to another one or to an external URL,
-that rrespective HTTP Status can be choosed too. It allows you also to force `https` everywhere on
-the frontend (Of course, you still need a valid SSL certificate).
+The Redirects plugin allows you to forward a slug / page to another one or to an external URL,
+the used HTTP Status can also be chosen. This extension also allows you to force the `https` 
+protocol everywhere on your frontend website (you still need a valid SSL certificate, of course).
 
 Features
 --------
