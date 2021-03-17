@@ -237,7 +237,7 @@ declare(strict_types=1);
                     [$from, $to, $status] = array_values($redirect);
 
                     // Sanitize FROM
-                    $from = rtrim(trim(strtolower($from)), "/");
+                    $from = rtrim(trim($from), "/");
                     if(stripos($from, DOMAIN_BASE)) {
                         $from = str_replace(DOMAIN_BASE, "", $from);
                     } else if(stripos($from, DOMAIN)) {
@@ -258,7 +258,7 @@ declare(strict_types=1);
                     }
 
                     // Sanitize TO
-                    $to = rtrim(trim(strtolower($to)), "/");
+                    $to = rtrim(trim(($to)), "/");
                     if(stripos($to, DOMAIN_BASE)) {
                         $to = str_replace(DOMAIN_BASE, "", $to);
                     } else if(stripos($to, DOMAIN)) {
